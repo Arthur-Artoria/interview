@@ -1,0 +1,15 @@
+{
+  "name": "interview",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interview Answers",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

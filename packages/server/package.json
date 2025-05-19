@@ -1,0 +1,24 @@
+{
+  "name": "@workspace/server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "vite-node src/index.ts",
+    "validate_json": "vite-node src/validateJSON.ts",
+    "translate:S": "vite-node src/translate.ts simple",
+    "translate:T": "vite-node src/translate.ts trad",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite-node": "^3.1.3"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "simptrad": "^0.2.0"
+  }
+}
